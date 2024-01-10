@@ -68,27 +68,4 @@ footer {
 }
 
 
-/* Adicione o seguinte CSS ao código anterior */
 
-body {
-    background-color: #f4f4f4;
-}
-
-form-container {
-    position: relative;
-}
-
-.highlight-shape {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    max-width: 600px;
-    height: 100%;
-    background-color: #fff;
-    border: 2px solid #333;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: -1;
-}
