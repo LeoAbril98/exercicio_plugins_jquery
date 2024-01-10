@@ -29,13 +29,22 @@ $(document).ready(function() {
         },
         cpf: {
         required: true
+        },
+        endereco: {
+        required: true
+        },
+        cidade: {
+        required: true
         }
+
     },
     messages: {
         nome: 'Por favor, insira seu nome',
         telefone: 'Por favor, insira seu Telefone',
         cpf: 'Por favor, insira seu CPF',
-        cep: 'Por favor, insira seu CEP'
+        cep: 'Por favor, insira seu CEP',
+        endereco: 'Por favor, insira seu endereço',
+        cidade: 'Por favor, insira sua Cidade'
     },
     submitHandler: function(form) {
         console.log(form)
